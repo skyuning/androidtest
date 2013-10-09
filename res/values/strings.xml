@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">androidtest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sensor_test">SensorTest</string>
+    <string name="title_activity_speaker">Speaker</string>
+    <string name="title_activity_tab_host_fragment">TabHostFragment</string>
+    <string name="title_activity_html_text">HtmlTextActivity</string>
+    <string name="title_activity_action_bar">ActionBarActivity</string>
+    <string name="title_activity_json">JsonActivity</string>
+    <string name="title_activity_get_child_view">GetChildViewActivity</string>
+    <string name="title_activity_xml_shadow">XmlShadowActiivty</string>
+    <string name="title_activity_goto_lib">GotoLibActivity</string>
+    <string name="title_activity_radio_group">RadioGroupActivity</string>
+    <string name="title_activity_find_view_with_tag">FindViewWithTagActivity</string>
+    <string name="title_activity_ali_wap_pay">AliWapPayActivity</string>
+    <string name="title_activity_text_animation">TextAnimationActivity</string>
+    <string name="title_activity_progress_bar">ProgressBarActivity</string>
+    <string name="title_activity_image_viewer">ImageViewerActivity</string>
+    <string name="title_activity_span">SpanActivity</string>
+    <string name="some_text">this is <font fgcolor="#ffff0000">red</font></string>
+    <string name="title_activity_view_bounds">ViewBoundsActivity</string>
+    <string name="title_activity_picasso">PicassoActivity</string>
+
+</resources>
