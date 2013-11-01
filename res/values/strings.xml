@@ -23,5 +23,11 @@
     <string name="some_text">this is <font fgcolor="#ffff0000">red</font></string>
     <string name="title_activity_view_bounds">ViewBoundsActivity</string>
     <string name="title_activity_picasso">PicassoActivity</string>
+    <string name="title_activity_date">DateActivity</string>
+    <string name="title_activity_soft_input">SoftInputActivity</string>
+    <string name="title_activity_enum_proguard">EnumProguardActivity</string>
+    <string name="title_activity_qzone_share">QzoneShareActivity</string>
+    <string name="title_activity_radio_group_ex">RadioGroupExActivity</string>
+    <string name="title_activity_short_link">ShortLinkActivity</string>
 
 </resources>

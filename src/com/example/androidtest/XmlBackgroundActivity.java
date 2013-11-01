@@ -16,7 +16,7 @@ import android.widget.ImageView;
 
 public class XmlBackgroundActivity extends Activity {
 
-    @ViewInject(id = R.id.imageView1)
+    @ViewInject(id = R.id.local)
     private ImageView mImageView;
     
     @Override
