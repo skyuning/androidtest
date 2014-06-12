@@ -37,8 +37,6 @@ public class PicassoActivity extends Activity {
         setContentView(R.layout.activity_picasso);
         ViewAnnotation.bind(this, this);
 
-
-
         BitmapDrawable bitmapDrawable = (BitmapDrawable) getResources().getDrawable(R.drawable.psb);
         Bitmap bitmap = bitmapDrawable.getBitmap();
         DisplayMetrics metrics = getResources().getDisplayMetrics();
@@ -60,5 +58,19 @@ public class PicassoActivity extends Activity {
 //        .into(mLocalView);
 //
 //        Picasso.with(this).setDebugging(true);
+        
+        String imgUrl = "http://pic3.nipic.com/20090715/533469_150722031_2.jpg";
+        
+        Picasso.with(this)
+        .load(imgUrl)
+        .placeholder(R.drawable.loading_circle)
+        .error(android.R.drawable.alert_dark_frame)
+        .into(mPicassovView);
+        
+        Picasso.with(this)
+        .load(R.drawable.loading_flower)
+        .into(mLocalView);
+        
+        Picasso.with(this).setDebugging(true);
     }
 }

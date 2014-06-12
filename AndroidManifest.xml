@@ -96,6 +96,7 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name="com.tencent.connect.common.AssistActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:configChanges="orientation|keyboardHidden" />
@@ -142,6 +143,27 @@
         </activity>
         <activity android:name=".ReflectOn23xActivity" />
         <activity android:name=".UrlSchemeActivity">
+=======
+            android:name="com.example.androidtest.DPSPActivity"
+            android:label="@string/title_activity_date" >
+        </activity>
+        <activity
+            android:name="com.example.androidtest.SoftInputActivity"
+            android:label="@string/title_activity_soft_input"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.example.androidtest.EnumProguardActivity"
+            android:label="@string/title_activity_enum_proguard" >
+        </activity>
+        <activity
+            android:name="com.example.androidtest.QzoneShareActivity"
+            android:label="@string/title_activity_qzone_share" >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -163,6 +185,17 @@
             android:configChanges="orientation|keyboardHidden" />
 
         <activity android:name=".UrlSchemeTestActivity" />
+                <data android:scheme="tencent你的AppId" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androidtest.RadioGroupExActivity"
+            android:label="@string/title_activity_radio_group_ex" >
+        </activity>
+        <activity
+            android:name="com.example.androidtest.ShortLinkActivity"
+            android:label="@string/title_activity_short_link" >
+        </activity>
     </application>
 
 </manifest>

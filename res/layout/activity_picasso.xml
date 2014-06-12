@@ -18,20 +18,23 @@
 
     <ImageView
         android:id="@+id/picasso"
-        android:layout_width="400dp"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:background="#eee"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/textView1"
         android:layout_marginRight="114dp"
         android:layout_marginTop="82dp"
-        android:src="@drawable/psb" />
+        android:src="@drawable/loading_circle" />
 
     <ImageView
-        android:id="@+id/thumb"
-        android:layout_alignParentRight="true"
-        android:src="@drawable/ic_launcher"
+        android:id="@+id/local"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_width="200dp" />
+        android:layout_below="@+id/picasso"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:src="@drawable/circle" />
 
     <ImageView
         android:id="@+id/thumb"

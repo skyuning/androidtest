@@ -30,7 +30,6 @@
     <string name="title_activity_radio_group_ex">RadioGroupExActivity</string>
     <string name="title_activity_short_link">ShortLinkActivity</string>
 
-
     <string name="problemqueue_footer2">
         <![CDATA[<big><font color="#000000">%1$d</font></big>
         <small><font color="#444444">人排队中&#160;&#160;&#160;&#160;&#160;24小时内</font></small>

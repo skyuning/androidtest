@@ -9,7 +9,10 @@
     tools:context=".ShortLinkActivity" >
 
     <TextView
+<<<<<<< HEAD
         android:id="@+id/text"
+=======
+>>>>>>> c27d250ff2dd8a8c4eb7650df12c64850d5f6183
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
