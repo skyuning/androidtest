@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.androidtest"
+    android:sharedUserId="me.chunyu.ChunyuDoctor"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="18" />
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATUS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name="com.example.androidtest.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,75 +34,135 @@
         </activity>
         <activity
             android:name="com.example.androidtest.SensorTestActivity"
-            android:label="@string/title_activity_sensor_test" >
-        </activity>
+            android:label="@string/title_activity_sensor_test"></activity>
         <activity
             android:name="com.example.androidtest.TabHostActivity"
-            android:label="@string/title_activity_tab_host_fragment" >
-        </activity>
+            android:label="@string/title_activity_tab_host_fragment"></activity>
         <activity
             android:name="com.example.androidtest.HtmlTextActivity"
-            android:label="@string/title_activity_html_text" >
-        </activity>
-        <activity
-            android:name="com.example.androidtest.ActionBarActivity"
-            android:label="@string/title_activity_action_bar" >
-        </activity>
-        <activity android:name="com.example.androidtest.DetectSoftinputActivity" />
+            android:label="@string/title_activity_html_text"></activity>
         <activity
             android:name="com.example.androidtest.JsonActivity"
-            android:label="@string/title_activity_json" >
-        </activity>
+            android:label="@string/title_activity_json"></activity>
         <activity
             android:name="com.example.androidtest.GetChildViewActivity"
-            android:label="@string/title_activity_get_child_view" >
-        </activity>
+            android:label="@string/title_activity_get_child_view"></activity>
         <activity
             android:name="com.example.androidtest.XmlBackgroundActivity"
-            android:label="@string/title_activity_xml_shadow" >
-        </activity>
-        <activity
-            android:name="com.example.androidtest.GotoLibActivity"
-            android:label="@string/title_activity_goto_lib" >
-        </activity>
-        <activity
-            android:name="com.example.androidtest.RadioGroupActivity"
-            android:label="@string/title_activity_radio_group" >
-        </activity>
+            android:label="@string/title_activity_xml_shadow"></activity>
         <activity
             android:name="com.example.androidtest.FindViewWithTagActivity"
-            android:label="@string/title_activity_find_view_with_tag" >
-        </activity>
-        <activity android:name="com.example.androidtest.IntentDemoActivity" >
-        </activity>
+            android:label="@string/title_activity_find_view_with_tag"></activity>
+        <activity android:name="com.example.androidtest.IntentDemoActivity"></activity>
         <activity
             android:name="com.example.androidtest.AliWapPayActivity"
-            android:label="@string/title_activity_ali_wap_pay" >
-        </activity>
+            android:label="@string/title_activity_ali_wap_pay"></activity>
         <activity
             android:name="com.example.androidtest.TextAnimationActivity"
-            android:label="@string/title_activity_text_animation" >
-        </activity>
+            android:label="@string/title_activity_text_animation"></activity>
         <activity
             android:name="com.example.androidtest.ProgressBarActivity"
-            android:label="@string/title_activity_progress_bar" >
-        </activity>
-        <activity
-            android:name="com.example.androidtest.ImageViewerActivity"
-            android:label="@string/title_activity_image_viewer" >
-        </activity>
+            android:label="@string/title_activity_progress_bar"></activity>
         <activity
             android:name="com.example.androidtest.SpanActivity"
-            android:label="@string/title_activity_span" >
-        </activity>
+            android:label="@string/title_activity_span"></activity>
         <activity
             android:name="com.example.androidtest.ViewBoundsActivity"
-            android:label="@string/title_activity_view_bounds" >
-        </activity>
+            android:label="@string/title_activity_view_bounds"></activity>
         <activity
             android:name="com.example.androidtest.PicassoActivity"
-            android:label="@string/title_activity_picasso" >
+            android:label="@string/title_activity_picasso"></activity>
+        <activity
+            android:name="com.example.androidtest.DPSPActivity"
+            android:label="@string/title_activity_date"></activity>
+        <activity
+            android:name="com.example.androidtest.SoftInputActivity"
+            android:label="@string/title_activity_soft_input"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.example.androidtest.EnumProguardActivity"
+            android:label="@string/title_activity_enum_proguard"></activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent100929591" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.example.androidtest.RadioGroupExActivity"
+            android:label="@string/title_activity_radio_group_ex"></activity>
+        <activity
+            android:name="com.example.androidtest.ShortLinkActivity"
+            android:label="@string/title_activity_short_link">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.APP_EMAIL" />
+
+                <data
+                    android:scheme="cy"
+                    android:host="me.chunyu.ChunyuDoctor"
+                    android:pathPattern="/webapp/become_vip/.*" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androidtest.ScrollerActivity"
+            android:label="scroller activity"></activity>
+        <activity
+            android:name="com.example.androidtest.AddContentViewActivity"
+            android:label="scroller activity"></activity>
+        <activity android:name=".widget.MyViewActivity" />
+        <activity android:name=".widget.AccelerateSensorActivity" />
+        <activity android:name=".widget.DialogAnimActivity" />
+        <activity
+            android:name="com.example.androidtest.QzoneShareActivity"
+            android:label="@string/title_activity_qzone_share"></activity>
+        <activity android:name=".LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReflectOn23xActivity" />
+        <activity android:name=".UrlSchemeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".KillServiceActivity"></activity>
+
+        <service
+            android:name=".KillService"
+            android:enabled="true"
+            android:label="kill_service" />
+
+        <activity
+            android:name="org.apkplug.app.apkplugActivity"
+            android:configChanges="orientation|keyboardHidden" />
+
+        <activity android:name=".UrlSchemeTestActivity" />
     </application>
 
 </manifest>

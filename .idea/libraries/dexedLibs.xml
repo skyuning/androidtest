@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/picasso-2.1.1-316ccc75fefcf967b9ac86864dc1960e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v7-appcompat-c138c91b5b2e9055047fa51aeaaa29dd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/open_sdk-e7c22a54e9518145e7404ecf7ecff375.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-smart-image-view-1.0.0-713c9e0629583da55c4b85c2e9897427.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/commons-httpclient-3.1-ec0da3b323501f6ef6739c9de5bddb2d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/open_sdk-c4f48c9c5a4fc156cbc7d662918dcdb0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-smart-image-view-1.0.0-1f55cffd725edb3088274f62ca0f8582.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/xframe-bc822e2030906a2d87b2da91397e0972.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-9bded8485447fd084c0fb49720ec8f00.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/classes-90a92fd9754afa6a41562d7edca4b984.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v7-appcompat-fb0952ea109a244526e8e64c0e100725.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/tencent_openapi-f364288a46790811a502034f2d81d1e7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/commons-httpclient-3.1-fcd213b686585ae9bcba0b69ab6cc568.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/picasso-2.1.1-e45c0aa2e332976a1fae186513d6e8f8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-6d036f5797c2aeda962cfec7cffc0c12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/mta-sdk-1.0.0-277c97d619df6474954afc1513f72c6b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpmime-4.1.2-f6f38ba32006aa8c0f36c23e8b0ea9e9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/xf-6f1dc59845e6552c2ac3d167f792e3a0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpmime-4.1.2-1302a7df5cf9b54c51c6b3ab66a4ede4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

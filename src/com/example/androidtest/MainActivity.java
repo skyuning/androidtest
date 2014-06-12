@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
         MultipartEntity entity = new MultipartEntity();
         setTitle(String.valueOf(entity.isRepeatable()));
         
-        enter(0);
+//        enter(0);
     }
     
     private void enter(int position) {
